@@ -1,7 +1,7 @@
 import pygame
 pygame.init()
 window = pygame.display.set_mode((1200, 400))
-track = pygame.image.load('Tracks/track1.png')
+track = pygame.image.load('Tracks/track3.png')
 car = pygame.image.load('tesla.png')
 car = pygame.transform.scale(car, (30, 60))
 car_x = 155
